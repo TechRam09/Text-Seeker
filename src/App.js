@@ -25,7 +25,7 @@ function App() {
   return (
     <>
     {/* <Router> */}
-     <Navbar title="Text-Seeker" mode={mode} togglemode={darkMode} abouttext="about"/>
+     <Navbar title="Text-Seeker" mode={mode} togglemode={darkMode}/>
      <div className="container mt-3">
       <Formtext heading="Enter The text to Analyze" mode={mode}/>
      </div>
